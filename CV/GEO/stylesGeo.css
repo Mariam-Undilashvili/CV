@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, "Noto Sans Georgian", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 8px;
+}
+
+h4 {
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.Profile {
+    max-width: 18%;
+    float: right;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.headershi {
+    display: inline-block;
+    font-size: 19px;
+}
+
+.language-switcher {
+    padding: 10px;
+    text-align: right;
+}
+
+.language-switcher a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.language-switcher a:hover {
+    text-decoration: underline;
+}
+
+.language-switcher .active {
+    font-weight: bold;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a {
+    color: #0000ee;
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .Profile {
+        max-width: 30%;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+}
